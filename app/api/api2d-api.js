@@ -19,7 +19,7 @@ getApi2dKey.addEventListener('input', () => {
 // Send QA request to the OpenAI API endpoint
 export async function api2dRequest(sentMessage) {
     try {
-      const response = await fetch('https://stream.api2d.net/v1/chat/completions', {
+      const response = await fetch('https://oa.api2d.net/v1/chat/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
